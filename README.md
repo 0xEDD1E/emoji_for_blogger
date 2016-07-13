@@ -120,3 +120,5 @@ This will result the following:
 |`:person_pouting:`|&#x1F64E;|
 |`:person_folded_hands:`|&#x1F64F;|
 
+*Source*: [wikipedia](https://en.wikipedia.org/wiki/Emoticons_(Unicode_block))  
+-
