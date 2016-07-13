@@ -1,4 +1,4 @@
-### __Emoji__ for Blogger :grinning: (`emojied.js`)
+# __Emoji__ for Blogger :grinning: (`emojied.js`)
 ##### Replace emoji shortcuts with emoji unicode values
 
 #### Little about `emojied.js`
@@ -35,7 +35,7 @@ This will result the following:
 > Here is a sample text :sunglasses:
 
 ## Emoji Code Sheet
--
+
 
 | emoji code | unicode value |
 |:----------:|:-------------:|
@@ -121,4 +121,4 @@ This will result the following:
 |`:person_folded_hands:`|&#x1F64F;|
 
 *Source*: [wikipedia](https://en.wikipedia.org/wiki/Emoticons_(Unicode_block))  
--
+
