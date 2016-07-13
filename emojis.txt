@@ -1,5 +1,5 @@
-:rinning:
-:rin:
+:grinning:
+:grin:
 :joy:
 :smiley:
 :smile:
@@ -42,7 +42,7 @@
 :weary:
 :sleepy:
 :tired_face:
-:rimacing:
+:grimacing:
 :sob:
 :open_mouth:
 :hushed:
