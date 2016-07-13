@@ -5,7 +5,7 @@
 `emojied.js` is a simple javascript script, that scans a text and replaces emoji shortcuts ( `:grin:` ) with their unicode representaion (`&#x1F601;`), So you don't need to remember the numbers.
 
 #### How it works
-`emojied.js` simply uses regex to find and replace.
+`emojied.js` simply uses regex to find and replace emoji codes with unicodes (HTML references).
 
 #### Usage
 [1] add `emojied.js` to the blogger template (or any other site)
