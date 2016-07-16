@@ -3,9 +3,10 @@
  */
 
 //document.getElementsByTagName('body')[0].onload = setemoji();
+/*
 $(document).ready(function() {
    setemoji();
-});
+});*/
 
 function setemoji() {
     var emojis = [
@@ -90,11 +91,19 @@ function setemoji() {
         /:person_pouting:/g,
         /:person_folded_hands:/g
     ];
-    var emdiv = document.getElementById('emojis');
-    var emtext = emdiv.innerHTML;
-    for (var i = 0; i < 16; ++i)
-        emtext = emtext.replace(emojis[i], '&#x1F60' + i.toString(16) + ';');
-    for (var j = 16; j < emojis.length; ++j)
-        emtext = emtext.replace(emojis[j], '&#x1F6' + j.toString(16) + ';');
-    emdiv.innerHTML = emtext;
+
+    // use divs' classname instead of id for filtering emojis
+    // this way user can user multiple `emojis` divs
+    var emdivs = document.getElementsByClassName('emojis');
+
+    for (var emi = 0; emi < emdivs.length; ++emi) {
+        var emdiv = emdivs[emi];
+        var emtext = emdiv.innerHTML;
+        for (var i = 0; i < 16; ++i)
+            emtext = emtext.replace(emojis[i], '&#x1F60' + i.toString(16) + ';');
+        for (var j = 16; j < emojis.length; ++j)
+            emtext = emtext.replace(emojis[j], '&#x1F6' + j.toString(16) + ';');
+        emdiv.innerHTML = emtext;
+    }
+
 }

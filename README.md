@@ -26,7 +26,7 @@ $(document).ready(function() {
 ```
 [4] And then finally when you need to display an emoji type the shortcut between a `div` element which has an ID: `emojis`
 ```html
-<div id="emojis">
+<div class="emojis">
 Here is a sample text :sunglasses:
 </div>
 ```
